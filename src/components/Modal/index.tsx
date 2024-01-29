@@ -1,5 +1,5 @@
 import { convertMoney } from "@/utils/formatter";
-import styles from "./Modal.module.scss";
+import styles from "./modal.module.scss";
 import { ProductType } from "@/types/ProducType";
 
 interface IProps {
