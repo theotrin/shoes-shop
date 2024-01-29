@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 308px;
+  width: 222px;
+
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  div {
+    &:first-of-type {
+      width: 200px;
+      margin-top: 20px;
+    }
+
+    &:last-of-type {
+      margin-top: 8px;
+    }
+  }
+}
